@@ -1,0 +1,62 @@
+.bgnav{
+    background-color: plum;
+}
+.navbar-brand{
+    text-shadow: 0 0 5px black;
+    font-weight: bold ;
+}
+.navbar-brand::after{
+    content: "✂";
+
+}
+.nav-link{
+    color: white !important ;
+    text-transform: capitalize;
+    text-shadow: 0 0 5px #333;
+}
+.jumbotron {
+    /*background-image: url(/img/index.jpg);
+    color:purple;*/
+    border-radius:  0; 
+    background-image: linear-gradient(rgb(172, 53, 172), plum);
+    margin: 0;
+    text-shadow: 0 0 5px wheat;
+}
+.btn-primary{
+    background-color:rgb(211, 94, 211) ;
+    border: none;
+}
+.btn-primary:hover{
+    background-color: plum;
+    
+}
+h2{
+    background-color: rgba(51, 51, 51, 0.678);
+    text-align: center;
+    text-transform: capitalize;
+    color: antiquewhite;
+    padding: 5px;
+}
+.al{
+    background-image: url(/img/moro.jpg);
+    background-size:cover;
+    background-position: center;
+    height: 400px;
+}
+.ar h3{
+    text-align: center;
+    color:aqua;
+
+}
+.ar h3::first-letter{
+    color: orange;
+}
+::selection{
+    color: orange;
+    background-color:  #333;
+}
+.autor{
+    text-align: center;
+    text-transform: capitalize;
+    color: antiquewhite ;
+}

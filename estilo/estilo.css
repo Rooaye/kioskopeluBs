@@ -14,6 +14,7 @@
     text-transform: capitalize;
     text-shadow: 0 0 5px #333;
 }
+
 .jumbotron {
     /*background-image: url(/img/index.jpg);
     color:purple;*/
@@ -33,9 +34,10 @@
 h2{
     background-color: rgba(51, 51, 51, 0.678);
     text-align: center;
-    text-transform: capitalize;
+    text-transform:capitalize;
     color: antiquewhite;
     padding: 5px;
+    margin:10px ;
 }
 .al{
     background-image: url(/img/moro.jpg);
@@ -54,6 +56,13 @@ h2{
 ::selection{
     color: orange;
     background-color:  #333;
+}
+.container-fluid{
+    max-width: 100%;
+}
+.productos {
+    padding: 20px;
+    height: auto;
 }
 .autor{
     text-align: center;

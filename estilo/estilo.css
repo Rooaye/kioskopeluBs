@@ -1,3 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@1,500&display=swap');
+
+body{
+    background-color: antiquewhite;
+}
 .bgnav{
     background-color: plum;
 }
@@ -6,7 +11,8 @@
     font-weight: bold ;
 }
 .navbar-brand::after{
-    content: "✂";
+    content: url(/assets/logo/loguito1.png.webp);
+    border-radius: 2px;
 
 }
 .nav-link{
@@ -19,7 +25,9 @@
     /*background-image: url(/img/index.jpg);
     color:purple;*/
     border-radius:  0; 
-    background-image: linear-gradient(rgb(172, 53, 172), plum);
+    background-color: #96ffc4;
+background-image: linear-gradient(43deg, #96ffc4 0%, #ffbdfc 50%, #ffe19b 100%);
+
     margin: 0;
     text-shadow: 0 0 5px wheat;
 }
@@ -39,6 +47,7 @@ h2{
     padding: 5px;
     margin:10px ;
 }
+
 .al{
     background-image: url(/img/moro.jpg);
     background-size:cover;
@@ -61,11 +70,38 @@ h2{
     max-width: 100%;
 }
 .productos {
-    padding: 20px;
     height: auto;
+    
+}
+
+div.card {
+    width: 80%;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 25px;
+    
+}
+
+div.card-body {
+    text-align: center;
+    padding: 10px 20px;
+}
+
+footer{
+    font-family: 'EB Garamond', serif;
+    background-color: #96ffc4;
+    background-image: linear-gradient(43deg, #96ffc4 0%, #ffbdfc 50%, #ffe19b 100%);
+    text-align: center;
+    padding: 20px;
+}
+.redes{
+    font-size: 25px;
+    letter-spacing: 10px;
 }
 .autor{
     text-align: center;
     text-transform: capitalize;
     color: antiquewhite ;
+    
 }
+

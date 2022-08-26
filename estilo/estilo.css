@@ -18,7 +18,7 @@ body{
 .nav-link{
     color: white !important ;
     text-transform: capitalize;
-    text-shadow: 0 0 5px #333;
+    text-shadow: 0 0 5px rgb(51, 51, 51);
 }
 
 .jumbotron {
@@ -40,16 +40,16 @@ background-image: linear-gradient(43deg, #96ffc4 0%, #ffbdfc 50%, #ffe19b 100%);
     
 }
 h2{
-    background-color: rgba(51, 51, 51, 0.678);
+    background-color:#96ffc4;
     text-align: center;
     text-transform:capitalize;
-    color: antiquewhite;
+    color: rgb(233, 175, 99);
     padding: 5px;
     margin:10px ;
 }
 
 .al{
-    background-image: url(/img/moro.jpg);
+    background-image: url(/assets/moro.jpg);
     background-size:cover;
     background-position: center;
     height: 400px;
@@ -86,13 +86,22 @@ div.card-body {
     text-align: center;
     padding: 10px 20px;
 }
-
+td{
+    padding: 50px;
+}
 footer{
     font-family: 'EB Garamond', serif;
     background-color: #96ffc4;
     background-image: linear-gradient(43deg, #96ffc4 0%, #ffbdfc 50%, #ffe19b 100%);
     text-align: center;
     padding: 20px;
+    
+}
+footer ul{
+    list-style: none;
+}
+footer h4{
+    text-align: center;
 }
 .redes{
     font-size: 25px;
@@ -101,7 +110,7 @@ footer{
 .autor{
     text-align: center;
     text-transform: capitalize;
-    color: antiquewhite ;
+    
     
 }
 
